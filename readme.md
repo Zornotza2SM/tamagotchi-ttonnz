@@ -169,6 +169,7 @@ Añade este código dentro de la función `vista()`, donde dice "AQUI IRÁN LOS 
         vista(); // IMPORTANTE: Volvemos a pintar
     }
 
+
     document.getElementById("btn-jugar").onclick = () => {
         // Lógica: Si felicidad es menor que 10, sumamos 1.
         if (felicidad < 10) {
